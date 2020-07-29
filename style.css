@@ -1,0 +1,25 @@
+
+.timeLeft {
+    margin: 20px;
+    float: right;
+}
+
+
+body{
+    background-color: #f1f1f1;
+}
+
+#test_status{
+
+        margin: 100px;
+        text-align: center;
+}
+
+#test {
+
+    border:#070a05 2px solid;
+            padding:10px 40px 40px 40px;
+            background-color:#45e2e7;
+            width:600px;
+            margin-left: 38%;
+}

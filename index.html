@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+    <form action="./highscore.html">
+
+        <input type="submit" value="High Scores" />
+    </form>
+    <div class="timeLeft">
+
+        <h1 class="time"></h1>
+        <div id="main"></div>
+    </div>
+
+    <h2 id="test_status"></h2>
+    <div id="test"> <br />  
+    
+    
+    
+        <p></p>
+    
+    
+        <div class="scoreResult">
+            <form id="scoreForm" method="POST">
+    
+                <label for="enterName"> Please Enter Your Name</label>
+                <input type="text" placeholder="Please Enter Your Name" name="nameText">
+    
+    
+            </form>
+            <p> Top Scorers  
+                <span id="scoreCount"></span>
+            </p>
+            <ul id="scoreSheet"></ul>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    </div>
+
+
+
+
+    <script src="../timeCount.js"></script>
+    <script src="./script.js"></script>
+    <script src="./score.js"></script>
+</body>
+</html>
